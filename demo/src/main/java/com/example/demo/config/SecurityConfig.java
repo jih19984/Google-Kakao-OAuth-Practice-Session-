@@ -39,7 +39,7 @@ public class SecurityConfig {
             )                      
             .logout(logout -> logout
                   // 로그아웃이 성공하면 경로를 이동시키겠다.
-                .logoutSuccessUrl("/")
+                .logoutSuccessUrl("http://localhost:5173")
             );
 
             // http에 적어놓은 보안 설정들을 실제 SecurityFilterChain 객체로 만들어서 반환.
