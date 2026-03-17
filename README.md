@@ -55,32 +55,32 @@ Google, Kakao 로그인을 Spring Boot + React 구조에서 직접 연습하기 
 
 ## 6. Google 로그인 구현
 
-- [ ] Google Cloud Console에서 OAuth 앱 등록
-- [ ] 승인된 리디렉션 URI 설정
-- [ ] 클라이언트 ID, 클라이언트 시크릿 발급
-- [ ] `application.properties` 또는 `application.yml`에 Google 설정 추가
-- [ ] Spring Security에서 Google 로그인 연결 확인
-- [ ] 로그인 성공 시 사용자 정보가 들어오는지 확인
-- [ ] 사용자 이름, 이메일, 프로필 이미지 등 어떤 값을 쓸지 정리하기
+- [x] Google Cloud Console에서 OAuth 앱 등록
+- [x] 승인된 리디렉션 URI 설정
+- [x] 클라이언트 ID, 클라이언트 시크릿 발급
+- [x] `application.properties` 또는 `application.yml`에 Google 설정 추가
+- [x] Spring Security에서 Google 로그인 연결 확인
+- [x] 로그인 성공 시 사용자 정보가 들어오는지 확인
+- [x] 사용자 이름, 이메일, 프로필 이미지 등 어떤 값을 쓸지 정리하기
 
 ## 7. Kakao 로그인 구현
 
-- [ ] Kakao Developers에서 애플리케이션 등록
-- [ ] 플랫폼, Redirect URI 설정
-- [ ] REST API 키와 시크릿 정보 확인
-- [ ] Spring Security에 Kakao provider/client 설정 추가
-- [ ] Kakao 사용자 정보 응답 구조 확인
-- [ ] Google과 Kakao의 사용자 정보 구조 차이 정리
-- [ ] Kakao 로그인 성공 여부 확인
+- [x] Kakao Developers에서 애플리케이션 등록
+- [x] 플랫폼, Redirect URI 설정
+- [x] REST API 키와 시크릿 정보 확인
+- [x] Spring Security에 Kakao provider/client 설정 추가
+- [x] Kakao 사용자 정보 응답 구조 확인
+- [x] Google과 Kakao의 사용자 정보 구조 차이 정리
+- [x] Kakao 로그인 성공 여부 확인
 
 ## 8. OAuth 사용자 정보 처리
 
-- [ ] OAuth 로그인 성공 시 사용자 정보를 어디까지 저장할지 결정
-- [ ] 세션에 저장할 정보와 DB에 저장할 정보 구분하기
-- [ ] `OAuth2UserService` 또는 커스텀 사용자 처리 방식 학습
-- [ ] provider 별로 다른 응답 형식을 하나의 사용자 객체로 매핑하기
-- [ ] 처음 로그인한 사용자를 가입 처리할지 정책 정하기
-- [ ] 기존 사용자인지 판별하는 기준 정하기
+- [x] OAuth 로그인 성공 시 사용자 정보를 어디까지 저장할지 결정
+- [x] 세션에 저장할 정보와 DB에 저장할 정보 구분하기
+- [x] `OAuth2UserService` 또는 커스텀 사용자 처리 방식 학습
+- [x] provider 별로 다른 응답 형식을 하나의 사용자 객체로 매핑하기
+- [x] 처음 로그인한 사용자를 가입 처리할지 정책 정하기
+- [x ] 기존 사용자인지 판별하는 기준 정하기
 
 ## 9. React 로그인 화면 연결
 
